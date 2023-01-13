@@ -33,7 +33,16 @@ public class Edge {
 	 */
 	private Vertex target;
 
-	public Edge(Vertex source, Vertex target) {
+	private LineString geometry;
+
+
+	public void setGeometry(LineString geometry) {
+		this.geometry = geometry;
+	}
+
+
+
+	Edge(Vertex source, Vertex target) {
 		this.source = source;
 		this.target = target;
 	}
