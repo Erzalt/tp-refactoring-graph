@@ -25,18 +25,19 @@ public class Vertex {
 	 */
 	private Coordinate coordinate;
 
+
 	/**
 	 * dijkstra - coût pour atteindre le sommet
 	 */
-	private double cost;
+	//private double cost;
 	/**
 	 * dijkstra - arc entrant avec le meilleur coût
 	 */
-	private Edge reachingEdge;
+	//private Edge reachingEdge;
 	/**
 	 * dijkstra - indique si le sommet est visité
 	 */
-	private boolean visited;
+	//private boolean visited;
 
 
 	private List<Edge> inEdges = new ArrayList<>();
@@ -71,6 +72,7 @@ public class Vertex {
 		this.coordinate = coordinate;
 	}
 
+	/*
 	@JsonIgnore
 	public double getCost() {
 		return cost;
@@ -96,7 +98,7 @@ public class Vertex {
 	public void setVisited(boolean visited) {
 		this.visited = visited;
 	}
-
+*/
 	@Override
 	public String toString() {
 		return id;
