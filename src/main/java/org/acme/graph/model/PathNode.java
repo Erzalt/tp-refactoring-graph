@@ -1,6 +1,7 @@
 package org.acme.graph.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.acme.graph.model.Edge;
 
 public class PathNode {
 
